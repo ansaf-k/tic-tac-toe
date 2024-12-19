@@ -1,0 +1,16 @@
+.square {
+    display: inline-flex;
+    width: 100px;
+    height: 100px; 
+    background-color: black;
+    color: whitesmoke;
+    font-size: 36px;
+    font-weight: 800;
+    flex-grow: 1;  
+    justify-content: center;
+    align-items: center; 
+}
+.board-row{
+    display: flex;
+    width: fit-content;
+}
